@@ -1,7 +1,5 @@
 function scrolling(){
   var div_id = "work"
-  var body = document.getElementById("the_body")
-  var html = document.getElementsByTagName("html")[0]
   var div = document.getElementById(div_id)
   div.scrollIntoView()
 }

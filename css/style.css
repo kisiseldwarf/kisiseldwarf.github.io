@@ -1,59 +1,8 @@
-.video-background {
-  position: relative;
-  background-color: black;
-  height: 75vh;
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
-}
-
 *{
   /* font-family: 'Montserrat Alternates', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   overflow:auto;
   scroll-behavior: smooth;
-}
-
-.video-background video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-.video-background .container {
-  position: relative;
-  z-index: 2;
-}
-.video-background .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
-}
-
-.video{
-  height: 100%;
-  width: 100%;
-}
-
-#nav{
-  position:fixed;
-  left: 1%;
-  top:47%;
-  padding-left:0px;
 }
 
 .vertical-middle {
@@ -130,9 +79,29 @@ ul{
 }
 
 #scrolldown-work:hover{
-  color:white;
+  cursor: pointer;
+  animation: color_change 0.1s forwards;
 }
 
 #scrolldown-work:hover img{
-    filter:invert(100);
+    animation: invert_change 0.1s forwards;
+}
+
+@keyframes invert_change {
+  animation-fill-mode: forwards;
+  0%{
+    filter:invert(1)
+  }
+  100%{
+    filter:invert(100)
+  }
+}
+
+@keyframes color_change {
+    0%{
+      color:#686868;
+    }
+    100%{
+      color:#FFFFFF;
+    }
 }
