@@ -63,7 +63,7 @@
 
 #title-index{
   position:relative;
-  top:42vh;
+  top:38vh;
 }
 
 #text-title-index{
@@ -127,4 +127,12 @@ ul{
   padding-top:2%;
   position:relative;
   top:-2%;
+}
+
+#scrolldown-work:hover{
+  color:white;
+}
+
+#scrolldown-work:hover img{
+    filter:invert(100);
 }
