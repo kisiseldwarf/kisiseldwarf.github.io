@@ -14,9 +14,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   //Work JSON
   var works = [
-    {title: "Drawmation", desc: "A game made throughout a 48 hours Game-Jam. Won the first place."},
-    {title: "Sprite Cutter", desc: "A very simple binary which aims to help newcomers devs to cut sprites sheet into single sprites."},
-    {title: "Aquesat", desc: "A software made while an end-of-year internship in 2016. Its goal is to help teachers to grade internships based on the feedback of the company and of the different teachers during the year, automatically."},
+    {title: "Drawmation", desc: "A game made throughout a 48 hours Game-Jam. Won the first place.", git_url:"https://github.com/polyedre/gamejamemmi"},
+    {title: "Sprite Cutter", desc: "A very simple binary which aims to help newcomers devs to cut sprites sheet into single sprites.", git_url:"https://github.com/kisiseldwarf/sprite_cutter"},
+    {title: "Aquesat", desc: "A software made while an end-of-year internship in 2016. Its goal is to help teachers to grade internships based on the feedback of the company and of the different teachers during the year, automatically.",git_url:"https://github.com/kisiseldwarf/Stage"},
+    {title: "Project : Revolucion", desc: "A 2D souls-like game still in development. The project began in the summer 2018.", git_url:"https://github.com/kisiseldwarf/revolucion"},
+    {title: "Twitter Retriever", desc: "A little lua program for the ComputerCraft mod in Minecraft. It retrieves tweets based on a hashtag then shows them on a screen nearby, inside the game.", git_url:"https://github.com/kisiseldwarf/twitter_retriever_minecraft"}
   ]
 
   //Filling the <ul>
@@ -31,15 +33,22 @@ function fill(ul,json){
     var li = document.createElement("li")
     var h1 = document.createElement("h1")
     var div_desc = document.createElement("div")
-    var hr = document.createElement("hr")
     var p = document.createElement("p")
-    div_desc.className = "container"
+    var btn_github = document.createElement("button")
+
+    btn_github.className = "btn btn-outline-light"
+    btn_github.innerHTML = "Github"
+    btn_github.setAttribute("onclick","location.href=\'"+json[i].git_url+"\'")
+    div_desc.className = "container pb-2"
     h1.innerHTML = json[i].title
     p.innerHTML = json[i].desc
+    li.className = "my-3"
     div_desc.appendChild(p)
+    div_desc.appendChild(btn_github)
     li.appendChild(h1)
     li.appendChild(div_desc)
     ul.appendChild(li)
-    ul.appendChild(hr)
+    if(i < json.length - 1)
+      ul.appendChild(document.createElement("hr"))
   }
 }
