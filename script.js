@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var works = [
     {title: "Drawnation", desc: "A game made throughout a 48 hours Game-Jam. Won the first place.", git_url:"https://github.com/polyedre/gamejamemmi"},
     {title: "Sprite Cutter", desc: "A very simple binary which aims to help newcomers devs to cut sprites sheet into single sprites.", git_url:"https://github.com/kisiseldwarf/sprite_cutter"},
-    {title: "Aquesat", desc: "A software made while an end-of-year internship in 2016. Its goal is to help teachers to grade internships based on the feedback of the company and of the different teachers during the year, automatically.",git_url:"https://github.com/kisiseldwarf/Stage"},
+    {title: "Aquesat", desc: "A software made while an end-of-year internship in 2016. Its goal is to help teachers grading internships based on the feedback of the company and of the different teachers during the year, automatically.",git_url:"https://github.com/kisiseldwarf/Stage"},
     {title: "Project : Revolucion", desc: "A 2D souls-like game still in development. The project began in the summer 2018.", git_url:"https://github.com/kisiseldwarf/revolucion"},
     {title: "Twitter Retriever", desc: "A little lua program for the ComputerCraft mod in Minecraft. It retrieves tweets based on a hashtag then shows them on a screen nearby, inside the game.", git_url:"https://github.com/kisiseldwarf/twitter_retriever_minecraft"}
   ]
