@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   document.getElementById("work-content").appendChild(ul)
 })
 
+/* To anyone reading this : Yeah, I could've done this with JQuery, but I wanted to improve with vanilla Javascript */
 function fill(ul,json){
   for (var i = 0; i < json.length; i++) {
     var li = document.createElement("li")
