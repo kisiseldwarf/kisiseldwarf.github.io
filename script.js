@@ -36,16 +36,20 @@ function fill(ul,json){
     var div_desc = document.createElement("div")
     var p = document.createElement("p")
     var btn_github = document.createElement("button")
+    var a_github = document.createElement("a")
 
     btn_github.className = "btn btn-outline-light"
+    a_github.setAttribute("href",json[i].git_url)
+    a_github.setAttribute("target","_blank")
     btn_github.innerHTML = "Github"
-    btn_github.setAttribute("onclick","location.href=\'"+json[i].git_url+"\'")
+    a_github.appendChild(btn_github)
+
     div_desc.className = "container pb-2"
     h1.innerHTML = json[i].title
     p.innerHTML = json[i].desc
     li.className = "my-3"
     div_desc.appendChild(p)
-    div_desc.appendChild(btn_github)
+    div_desc.appendChild(a_github)
     li.appendChild(h1)
     li.appendChild(div_desc)
     ul.appendChild(li)
