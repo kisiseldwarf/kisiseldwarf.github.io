@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   //Work JSON
   var works = [
+    {title: "Renrust", desc: "A Visual Novel Game-engine made in Rust. Still in development.", git_url: "https://github.com/kisiseldwarf/Renrust"},
     {title: "Drawnation", desc: "A game made throughout a 48 hours Game-Jam. Won first place.", git_url:"https://github.com/polyedre/gamejamemmi"},
     {title: "Project : Revolucion", desc: "A 2D souls-like game still in development. The project began in the summer 2018.", git_url:"https://github.com/kisiseldwarf/revolucion"},
     {title: "Sprite Cutter", desc: "A very simple binary which aims to help newcomers devs to cut sprites sheet into single sprites.", git_url:"https://github.com/kisiseldwarf/sprite_cutter"},
