@@ -8,25 +8,16 @@ function scrolling(){
 document.addEventListener("DOMContentLoaded", function(event) {
 
   //waiting for the document to load
-  var ul = document.createElement("ul")
-  ul.className = "text-white"
-  ul.style = "decoration:none;"
+  var ul = document.getElementById("work-list")
 
   //Work JSON
   var works = [
     {title: "Renrust", desc: "A Visual Novel Game-engine made in Rust. Still in development.", git_url: "https://github.com/kisiseldwarf/Renrust"},
-    {title: "Drawnation", desc: "A game made throughout a 48 hours Game-Jam. Won first place.", git_url:"https://github.com/polyedre/gamejamemmi"},
-    {title: "Project : Revolucion", desc: "A 2D souls-like game still in development. The project began in the summer 2018.", git_url:"https://github.com/kisiseldwarf/revolucion"},
-    {title: "Sprite Cutter", desc: "A very simple binary which aims to help newcomers devs to cut sprites sheet into single sprites.", git_url:"https://github.com/kisiseldwarf/sprite_cutter"},
-    {title: "Twitter Retriever", desc: "A little lua program for the ComputerCraft mod in Minecraft. It retrieves tweets based on a hashtag then shows them on a screen nearby, inside the game.", git_url:"https://github.com/kisiseldwarf/twitter_retriever_minecraft"},
-    {title: "Aquesat", desc: "A software made while an end-of-year internship in 2016. Its goal is to help teachers grading internships based on the feedback of the company and of the different teachers during the year, automatically.",git_url:"https://github.com/kisiseldwarf/Stage"}
+    {title: "Drawnation", desc: "A game made throughout a 48 hours Game-Jam. Won first place.", git_url:"https://github.com/polyedre/gamejamemmi"}
   ]
 
   //Filling the <ul>
   fill(ul,works)
-
-  //Appending the <ul>
-  document.getElementById("work-content").appendChild(ul)
 })
 
 /* To anyone reading this : Yeah, I could've done this with JQuery, but I wanted to improve with vanilla Javascript */
