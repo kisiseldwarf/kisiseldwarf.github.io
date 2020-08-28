@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   //Work JSON
   var works = [
     {title: "Renrust", desc: "A Visual Novel Game-engine made in Rust. Still in development.", git_url: "https://github.com/kisiseldwarf/Renrust"},
-    {title: "Drawnation", desc: "A game made throughout a 48 hours Game-Jam. Won first place.", git_url:"https://github.com/polyedre/gamejamemmi"}
+    {title: "Drawnation", desc: "A game made throughout a 48 hours Game-Jam. Won first place.", git_url:"https://github.com/polyedre/gamejamemmi"},
+    {title: "My_thread", desc: "A school project attempt to reproduce the pthread library.", git_url:"https://github.com/kisiseldwarf/my_thread"}
   ]
 
   //Filling the <ul>
