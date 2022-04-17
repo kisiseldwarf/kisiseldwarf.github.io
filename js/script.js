@@ -19,7 +19,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
       title: 'Lost + Found',
       desc: 'A game made throughout a 48 hours Game-Jam where you retrieve lost memories. (Unity)',
       enginePng: engineEnum.unity,
-      itch: 'https://metamaus.itch.io/lostfound'
+      itch: 'https://metamaus.itch.io/lostfound',
+      git_url: 'https://github.com/EddieBreeg/globalGameJam2021'
     },
     {
       title: "Drawnation",
@@ -67,7 +68,7 @@ function createButton(label, link) {
   var btn = document.createElement('button')
   var a = document.createElement('a')
 
-  btn.className = "btn btn-outline-light"
+  btn.className = "btn btn-outline-light mx-2"
   a.setAttribute("href", link)
   a.setAttribute("target","_blank")
   btn.innerHTML = label
