@@ -12,5 +12,5 @@ caption:
 
 One day, one story.
 
-xxxx link to a wattpad collection
+you can find all this work here : [Inktober 2023 Wattpad List](https://www.wattpad.com/list/1489037509)
 
