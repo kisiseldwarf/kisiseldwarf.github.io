@@ -15,3 +15,4 @@ Late Hotel Stories is an investigation 2D game sets in a Cyberpunk universe foll
 You play as Emet, a looser who has loosed his job following the strange events of a case. Now employed by the Late Hotel, a mysterious detective agency, Emet is tasked to resolve cases for shadowy agents to pay for his room. But the city grows stranger and stranger, and as Emet progress and discovers his true nature of *prodigy of truth*, he'll discover the city may not be what it seems. What if the *scream* that prevents us from going outside was our true savior ?
 
 xxx - link to github
+xxx - link to GDD
