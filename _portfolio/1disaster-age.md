@@ -1,13 +1,13 @@
 ---
 title: Disaster Age
 subtitle: A DnD settings sets in an unchronic Thedas
-image: assets/dark-city.jpeg
+image: assets/img/portfolio/dark-city.jpeg
 alt: Pelmecia, the dark capital
 
 caption:
   title: Disaster Age
   subtitle: DnD Setting
-  thumbnail: assets/dark-city.jpeg
+  thumbnail: assets/img/portfolio/dark-city-thumbnail.jpeg
 ---
 
 Disaster Age is a TTRPG detective setting for the most played RPG in the world : Dungeons and Dragons (Fifth Edition), set in an uchronic Thedas.
@@ -18,7 +18,7 @@ This change of events allowed for a group of extremists, the *Fatalists*, to tak
 
 You're playing as an Exiled : A former Inquisitor that now travel the world and investigate the magic of the world on your own account. The Inquisition searches for you, and the people of Thedas treats you with a mix of fear and anger. Accumulating magical artifacts and resolving strange cases, your quest for power can only know one end : A confrontation with the Inquisition and their infamous flying capital Pelmecia. You'll certainly not survive... unless ?
 
-- [Notion](https://www.notion.so/Disaster-Age-FR-98ca1b8162614ed489d9659f8295aab3?pvs=4)
+- [Notion](https://carpal-ethernet-30f.notion.site/Disaster-Age-FR-98ca1b8162614ed489d9659f8295aab3?pvs=4){:target="_blank"}
 
 <sub>
 <sup>
