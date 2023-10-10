@@ -77,7 +77,6 @@
     }
     .modal-content {
       padding: 100px 0;
-      text-align: center;
       h2 {
         font-size: 3em;
         margin-bottom: 15px;
@@ -149,6 +148,8 @@ div.background-modal {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    padding-bottom: 24rem;
+    margin-top: 32px;
     .intro-text {
       filter: none;
       padding-top: 150px;

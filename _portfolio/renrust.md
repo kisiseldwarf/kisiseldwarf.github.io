@@ -10,6 +10,6 @@ caption:
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
 
-Renrust aims to recreate the flexibility and ergonomy of the renpy engine, but withing Rust.
+Renrust aims to recreate the flexibility and ergonomy of the renpy engine, with the swiftness and reliability of Rust.
 
-xxx link to github.
+- [Github](https://github.com/kisiseldwarf/Renrust)

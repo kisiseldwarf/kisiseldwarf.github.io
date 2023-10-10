@@ -10,9 +10,12 @@ caption:
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
 
-Late Hotel Stories is an investigation 2D game sets in a Cyberpunk universe following a world apocalypse unwided by the *scream*, an alien entity that killed 2/3 of the world population. Humanity has found refuge in a mysterious City called Caliope, which appear magically during the Apocalypse.
+Late Hotel Stories is an investigation 2D game sets in a Cyberpunk universe following a world apocalypse caused by the *scream*, an alien entity that killed two third of the world population. 
 
-You play as Emet, a looser who has loosed his job following the strange events of a case. Now employed by the Late Hotel, a mysterious detective agency, Emet is tasked to resolve cases for shadowy agents to pay for his room. But the city grows stranger and stranger, and as Emet progress and discovers his true nature of *prodigy of truth*, he'll discover the city may not be what it seems. What if the *scream* that prevents us from going outside was our true savior ?
+Humanity has found refuge in a mysterious City called Caliope, which appeared magically during the Apocalypse.
 
-xxx - link to github
-xxx - link to GDD
+You play as Emet, a failed detective who lost his job following a strange case. Now employed by the Late Hotel, a mysterious detective agency, Emet is tasked to resolve cases for shadowy agents to pay for his rent. But the city grows werider as Emet progresses and discovers his true nature : the *prodigy of truth*.
+
+The city may not be what it seems - What if the *scream* was our true savior ?
+
+- [Github](https://github.com/kisiseldwarf/Late_Tales)
