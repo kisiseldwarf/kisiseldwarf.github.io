@@ -10,6 +10,7 @@ caption:
   thumbnail: assets/img/portfolio/04-thumbnail.jpg
 ---
 
-This very simple python game was made as a first approach of the Bevy framework, in the Rust language.
+This very simple pong game was made as a first approach of the Bevy framework, in the Rust language.
 
-xxx - link to itch io + github
+[Github](https://github.com/kisiseldwarf/pong-bevy)
+xxx - link to itch io
