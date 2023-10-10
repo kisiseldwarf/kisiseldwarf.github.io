@@ -15,29 +15,18 @@
           <div class="rl"></div>
         </div>
       </div>
+      <div class="background-modal" style="background-image: url({{project.image}});">
+        <div class="intro-text">
+          <div class="intro-heading text-uppercase">{{ project.title }}</div>
+          <div class="intro-lead-in">{{ project.subtitle }}</div>
+        </div>
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <div class="container">
-                <div class="intro-text">
-                    <img
-                    class="img-fluid d-block mx-auto"
-                    src="{{ project.image }}"
-                    alt="{{ project.alt }}"
-                  />
-                  <div class="intro-lead-in">{{ project.title }}</div>
-                  <div class="intro-heading text-uppercase">{{ project.subtitle }}</div>
-                </div>
-              </div>
-              <h2 class="text-uppercase">{{ project.title }}</h2>
-              <p class="item-intro text-muted">{{ project.subtitle }}</p>
-              <img
-                class="img-fluid d-block mx-auto"
-                src="{{ project.image }}"
-                alt="{{ project.alt }}"
-              />
+              
               <p>{{ project.content }}</p>
               <button
                 class="btn btn-primary"
@@ -74,6 +63,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
+              
               <!-- Project Details Go Here -->
               <div class="container background-modal">
                 <div class="intro-text">
