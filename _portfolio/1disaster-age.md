@@ -1,6 +1,6 @@
 ---
 title: Disaster Age
-subtitle: A DnD settings sets in an unchronic Thedas
+subtitle: A DnD setting set in an uchronic Thedas
 image: assets/img/portfolio/dark-city.jpeg
 alt: Pelmecia, the dark capital
 
